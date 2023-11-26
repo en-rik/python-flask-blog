@@ -48,7 +48,7 @@ def sign_up():
         elif len(password1) < 6 :
             flash('Password was too short.',category='error') 
         else:
-            new_user = User(email=email, username=username , password=generate_password_hash(password1 ,method='sha256'))
+            new_user = User(email=email, username=username , password=generate_password_hash(password1 ,method='pbkdf2:sha256'))
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
