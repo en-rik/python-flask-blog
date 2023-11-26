@@ -1,6 +1,6 @@
 ## Python Flask Blog Site
 
-This is a simple blog site built using Python , Flask and HTML.
+This is a simple blog inspired by TechWithTim site built using Python , Flask and HTML.
 
 ## Features
 
