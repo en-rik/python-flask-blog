@@ -19,9 +19,9 @@ Make sure you have the following installed before running the application:
 - Flask-Login
 
 ## Install Requirements 
-pip install Flask 
-pip install Flask-SQLAlchemy 
-pip install Flask-Login
+- pip install Flask 
+-pip install Flask-SQLAlchemy 
+- pip install Flask-Login
 
 ## Run the application
 Run :
